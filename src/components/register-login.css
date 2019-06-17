@@ -1,0 +1,149 @@
+.container-fluid{
+    min-height: 100vh;
+    padding:0;
+overflow: hidden;
+position:absolute;
+
+
+
+
+}
+
+.side-text-container{
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:#fff;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#229690+1,229690+11,229690+11,229690+44,1e705b+76 */
+background: #229690; /* Old browsers */
+background: -moz-linear-gradient(top,  #229690 1%, #229690 11%, #229690 11%, #229690 44%, #1e705b 76%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #229690 1%,#229690 11%,#229690 11%,#229690 44%,#1e705b 76%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #229690 1%,#229690 11%,#229690 11%,#229690 44%,#1e705b 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#229690', endColorstr='#1e705b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.side-text-container h1{
+    font-weight: bold;    
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+.side-text-container p{
+    font-size:20px;
+    margin-bottom: 10%;
+    padding-left: 30px;
+    padding-right: 30px; 
+    text-align: center;
+}
+
+.side-text-container .router-link{
+    display: block;
+    text-align: center;
+    
+    width:50%;
+    font-size:1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    padding-top:18px;
+    padding-bottom: 18px;
+    background-color:#f3f3f3;
+    color:#000;
+    border: 0 ;
+    border: none !important;
+    outline: none;
+}
+
+.side-text-container .router-link:hover{
+    background-color:#f3f3f3;
+    color:#229690;
+    text-decoration:none;
+}
+button:focus{
+    box-shadow:none !important;
+}
+main{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:10%;
+    padding-right:10%;
+    
+}
+
+main h1, main p{
+    text-align: center;
+
+}
+
+main h1{
+    font-size:55px;
+
+}
+
+.form-control{
+    border-radius: 50px;
+    height: 55px;
+    width: 60%;
+    margin :3% auto;
+    background-color: #eef5f3;
+    color:#88908e;
+    font-size: 0.875rem;
+    padding: 16px;
+    border:0;
+}
+
+main button{
+    width:25%;
+    font-size:1.2em !important;
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    height:60px;
+    background-color:#229690 !important;
+    color:#fff;
+    border: 0 ;
+    border: none !important;
+    margin-top:3%;
+}
+
+main button:hover{
+background-color: #4AA9A4 !important;
+
+}
+
+ main h1{
+    margin-top:-7%;
+}
+
+.slide-enter {
+    
+    left: 100%;
+   
+  }
+  .slide-enter-active {
+    left: 0;
+    transition: left 1000ms;
+   
+  }
+  .slide-exit {
+    left: 0;
+    
+  }
+  .slide-exit-active {
+    left: -100%;
+    transition: left 1000ms;
+    
+  }
+
+body{
+    overflow: hidden;
+}
+@media screen and(max-width: 600px){
+    .container-fluid{
+        overflow: auto;
+    }
+}
